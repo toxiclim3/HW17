@@ -1,4 +1,0 @@
-﻿  HW17.1.cpp
-E:\Школа\Visual studio\Projects\Itstep Season 2\HW17.1\HW17.1.cpp(68,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-E:\Школа\Visual studio\Projects\Itstep Season 2\HW17.1\HW17.1.cpp(74,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  HW17.1.vcxproj -> E:\Школа\Visual studio\Projects\Itstep Season 2\x64\Debug\HW17.1.exe
