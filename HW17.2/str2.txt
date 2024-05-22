@@ -1,0 +1,1 @@
+The first file has 5 special invisible characters, 23 regular special characters, 233 vowels, 430 consonants, 5 digits, 136 spaces, 0 characters outside the ASCII table

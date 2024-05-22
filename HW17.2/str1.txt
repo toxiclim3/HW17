@@ -1,0 +1,6 @@
+Loads the data from the given locations, converts them to character string equivalents and writes the results to a variety of sinks/streams:
+
+1) Writes the results to the output stream stdout.
+2) Writes the results to the output stream stream.
+3) Writes the results to a character string buffer. The behavior is undefined if the string to be written (plus the terminating null character) exceeds the size of the array pointed to by buffer.
+4) Writes the results to a character string buffer. At most bufsz - 1 characters are written. The resulting character string will be terminated with a null character, unless bufsz is zero. If bufsz is zero, nothing is written and buffer may be a null pointer, however the return value (number of bytes that would be written not including the null terminator) is still calculated and returned.
