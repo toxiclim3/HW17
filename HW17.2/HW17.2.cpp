@@ -54,13 +54,16 @@ int main()
         cout << "The file cannot be opened";
     else
     {
-        int spChars = 0, chars = 0, vowels = 0, consonants = 0, digits = 0, spaces = 0, outsideASCII = 0;
+        int spChars = 0, chars = 0, vowels = 0, consonants = 0, digits = 0, spaces = 0, outsideASCII = 0, lines = 0;
         while ((tempChar = fgetc(file1)) != EOF)
         {
 
             int tempInt = 0;
-
-            if (tempChar == 32)
+            if (tempChar == '\n')
+            {
+                lines++;
+            }
+            else if (tempChar == 32)
             {
                 spaces++;
             }
